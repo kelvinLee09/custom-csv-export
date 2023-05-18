@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+#output_preview {
+  border: none;
+  padding-bottom: 20px;
+}
+
+#output_preview table {
+  width: 100%;
+}
+
+#output_preview tr td {
+  border: 1px solid #555;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#output_preview tr:first-child {
+  background-color: #dcdcde;
+}
